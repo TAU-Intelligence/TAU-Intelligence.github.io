@@ -18,7 +18,7 @@ const Home = () => {
               <div className="feature-image bg-img-1">
                 {/* GIF added here */}
                 <img
-                  src="img/stoch-safety-critical.gif"
+                  src="/img/stoch-safety-critical.gif"
                   alt="Safety Critical Systems"
                   className="feature-gif"
                 />
@@ -30,7 +30,7 @@ const Home = () => {
               <div className="feature-image bg-img-2">
                 {/* GIF added here */}
                 <img
-                  src="img/demo_1_sv.gif"
+                  src="/img/demo_1_sv.gif"
                   alt="Optimal Manipulation"
                   className="feature-gif"
                 />
@@ -42,7 +42,7 @@ const Home = () => {
               <div className="feature-image bg-img-3">
                 {/* GIF added here */}
                 <img
-                  src="img/multi-agent.gif"
+                  src="/img/multi-agent.gif"
                   alt="Multi-Robot Systems"
                   className="feature-gif"
                 />

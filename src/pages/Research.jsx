@@ -16,8 +16,8 @@ const Research = () => {
       Author: 'Mumuksh Tayal, Manan Tayal, Ravi Prakash',
       description: 'Ensuring safe and generalizable control remains a fundamental challenge in robotics, particularly when deploying imitation learning in dynamic environments. Traditional behavior cloning (BC) struggles to generalize beyond its training distribution, as it lacks an understanding of the safety-critical reasoning behind expert demonstrations. To address this limitation, we propose GenOSIL, a novel imitation learning framework that explicitly incorporates environment parameters into policy learning via a structured latent representation. Unlike conventional methods that treat the environment as a black box, GenOSIL employs a variational autoencoder (VAE) to encode measurable safety parameters—such as obstacle position, velocity, and geometry—into a latent space that captures intrinsic correlations between expert behavior and environmental constraints. This enables the policy to infer the rationale behind expert trajectories rather than merely replicating them. We validate our approach on two robotic platforms—an autonomous ground vehicle and a Franka Emika Panda manipulator—demonstrating superior safety and goal-reaching performance compared to baseline methods.',
       isNew: true,
-      Urlgif1: 'img/demo_1_fv.gif',
-      Urlgif2: 'img/demo_1_sv.gif'
+      Urlgif1: '/img/demo_1_fv.gif',
+      Urlgif2: '/img/demo_1_sv.gif'
     }
   ];
 
