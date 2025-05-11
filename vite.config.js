@@ -15,5 +15,5 @@ export default defineConfig({
       }
     })
   ],
-  base: "/TAU-Intelligence.github.io"
+  base: "/"
 })
